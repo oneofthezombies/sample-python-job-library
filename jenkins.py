@@ -64,6 +64,7 @@ class Jenkins:
             raise Exception({
                 'request': {
                     'url': url,
+                    'method': method,
                     'auth': auth,
                     'headers': headers,
                     'data': data
