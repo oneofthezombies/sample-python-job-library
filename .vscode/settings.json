@@ -1,0 +1,13 @@
+{
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.E": "Error",
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "python.linting.flake8CategorySeverity.F": "Error",
+    "python.linting.flake8Args": [
+        "--select=E,W,F,C,N",
+        "--max-line-length=120",
+    ],
+    "python.formatting.provider": "black",
+}
